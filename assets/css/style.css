@@ -1,0 +1,186 @@
+.header{
+    background-color:white;
+    height:81px;
+}
+
+h1{
+    background-color:#4aaaa5; 
+    padding:20px;
+    color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size:120%;
+    text-align: center;
+}
+
+.nav{
+    float: right;
+    padding: 20px; 
+    color:grey;
+    text-decoration: none;
+    position:relative;
+    right:100px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color:white;
+}
+
+hr{
+    width:90%;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+h2{
+    color:4aaaa5;
+    padding:30px 10px 10px 20px;   
+    clear:both;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size:120%;
+    font-weight:bold;
+}
+
+footer{
+    background-color:#666666;
+    height:30px;
+    width:100%;
+    text-align:center;
+    padding:10px 0px 30px 0px;
+    color:lightgrey;
+    clear:both;
+    border-top: 10px solid #4aaaa5;
+    margin-top: 20px;
+    position:fixed;
+    bottom:0;
+}
+
+.mainContainer{
+    margin: 30px 80px 30px 80px;
+    background-color: white;
+    width: 80%;
+    clear:both;
+    min-height: calc(70vh - 70px);
+}
+
+p{
+    font-family: sans-serif;
+    color: grey;
+    padding-right:20px;
+    line-height:30px;
+    text-indent:50px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* ABOUT ME MAIN BODY */
+
+#pic{
+    float:left;
+    width:auto;
+    max-height:200px;
+    margin: 0px 20px 40px 20px;
+}
+
+/* CONTACT */
+
+#form{
+    padding:20px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#contactName{
+    width:100%;
+    padding:5px 10px 10px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#contactEmail{
+    width:100%;
+    padding:5px 10px 10px;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+#contactMessage{
+    width:100%;
+    padding:5px 10px;
+    height:20%;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* ------ PORTFOLIO  ----------- */
+
+h3{
+    background-color: #4aaaa5;
+    color:white;
+    padding: 10px 0px 10px 0px;
+    text-align:center;
+    position: relative;
+    bottom:50px;
+    width:200px;
+    opacity: 0.9;
+}
+
+/* ------Sticky Footer---------*/
+
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  height: auto !important;
+  height: 100%;
+  min-height: 100%;
+  margin: 0 auto -25px;
+}
+
+footer,
+.push {
+  height: 25px;
+}
+
+
+
+/* ------------------------RESPONSIVE SECTION --------------*/
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+
+    width:100%;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media only screen and (min-width: 768px) {
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+}
+@media only screen and (min-width: 980px) {
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
